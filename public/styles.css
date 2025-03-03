@@ -1,0 +1,1116 @@
+.App {
+  height: 900px;
+  width: cover;
+}
+
+.header {
+  z-index: 100;
+  display: flex;
+  align-items: flex-end;
+  color: whitesmoke;
+  top: -22px;
+  right: 0px;
+  height: 100px;
+  width: 100%;
+}
+
+.NavBar {
+  display: flex;
+  height: 200px;
+  width: 600px;
+  justify-content: left;
+}
+
+.header-text {
+  z-index: 200;
+  position: fixed;
+  align-self: left;
+  height: 100px;
+  width: 300px;
+  z-index: 100;
+  padding-left: 17px;
+  font-family: "Archivo Black", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  text-align: left;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+.logo {
+  z-index: 100;
+  position: fixed;
+  align-items: flex-end;
+  top: 25px;
+  right: 50px;
+  height: 60px;
+  width: 60px;
+}
+
+body {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+footer p {
+  color: #ccc;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  left: 50px;
+  text-align: center;
+}
+
+.login {
+  animation-name: fadeLogin;
+  animation-duration: 250ms;
+  z-index: 10;
+  padding: 10px;
+  width: 500px;
+  height: 425px;
+  margin: 16px;
+  line-height: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 15px;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+}
+
+.login button {
+  background-color: #bccd9b;
+}
+
+.login p {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 15px;
+  color: #9bb475;
+}
+
+.login h1 {
+  color: white;
+  text-align: center;
+}
+
+.login button {
+  width: 300px;
+  text-align: center;
+  border-radius: 8px;
+  border-width: 0px;
+  display: block;
+  background: rgbbccd9b
+  height: 30px;
+  position: relative;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.backgroundImg {
+  z-index: -100;
+  display: flex;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  width: 3400px;
+  height: 1200px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  background-color: #000000;
+}
+
+.root {
+  height: 100%;
+}
+
+.loginText .title {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+}
+
+input {
+  background: white;
+  border-radius: 8px;
+  border-width: 0px;
+  opacity: 0.6;
+  display: block;
+  text-align: center;
+  height: 30px;
+  width: 300px;
+}
+
+input::placeholder {
+  color: rgb(99, 99, 99);
+  text-align: left;
+  opacity: 0.6;
+}
+
+#signUp {
+  margin-right: 70px;
+}
+
+.login h1 {
+  position: relative;
+  font-family: "Archivo Black", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-weight: 0;
+  font-size: 27px;
+  margin-top: 60px;
+}
+
+.login p {
+  color: white;
+  position: relative;
+  opacity: 0.8;
+}
+
+.loginContainer {
+  z-index: -10;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: cover;
+  margin-top: 0px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.Card {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 1;
+  height: 570px;
+  width: 800px;
+  border-radius: 20px;
+  align-items: flex-start;
+  right: 100px;
+  animation-name: fadeProfile;
+  animation-duration: 700ms;
+}
+
+.CheckCard {
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 1;
+  display: flex;
+  height: 510px;
+  width: 770px;
+  border-radius: 20px;
+  align-items: flex-start;
+  right: 1000px;
+  animation-name: fadeProfile;
+  animation-duration: 700ms;
+  top: -40px;
+}
+
+.SearchCard {
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  height: 540px;
+  width: 600px;
+  border-radius: 20px;
+  right: 0px;
+  animation-name: fadeProfile;
+  animation-duration: 700ms;
+  top: -40px;
+}
+
+.MemberCard {
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 1;
+  height: 430px;
+  width: 770px;
+  border-radius: 20px;
+  align-items: flex-start;
+  right: 1000px;
+  animation-name: fadeProfile;
+  animation-duration: 700ms;
+  top: -40px;
+}
+
+.MemberCard h1 {
+  position: relative;
+  top: -110px;
+  text-align: left;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+  margin-left: 50px;
+}
+
+.MemberCard p {
+  color: white;
+}
+
+.InventoryCard {
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 1;
+  height: 480px;
+  width: 770px;
+  border-radius: 20px;
+  align-items: flex-start;
+  right: -300px;
+  animation-name: fadeProfile;
+  animation-duration: 700ms;
+  top: -40px;
+}
+
+.MemberText {
+  display: flex;
+  gap: 100px;
+  height: 150px;
+  width: 350px;
+  display: flex;
+  margin-left: 55px;
+  margin-bottom: 400px;
+  align-items: center;
+}
+
+.MemberText input {
+  width: 275px;
+}
+
+.MemberText input::placeholder {
+  color: rgb(62, 81, 20);
+}
+
+.MemberText p {
+  text-align: left;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+  font-size: 14px;
+  color: #bccd9b;
+}
+
+.Member1 {
+  position: relative;
+  margin-left: 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  top: -50px;
+}
+
+.Member2 {
+  position: relative;
+  margin-left: 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  top: -50px;
+}
+
+.Inventory1 {
+  position: relative;
+  margin-left: 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  top: -5px;
+}
+
+.Inventory2 {
+  position: relative;
+  margin-left: 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  top: -50px;
+}
+
+#MemberTitle {
+  position: relative;
+  top: 25px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+
+
+
+#InventoryTitle {
+  position: relative;
+  top: -150px;
+  right: -50px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+
+.ClockCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 310px;
+  width: 500px;
+  border-radius: 20px;
+  top: 75px;
+  right: 100px;
+  animation-name: fadeProfile;
+  animation-duration: 700ms;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+  gap: 0px;
+}
+
+
+#ID {
+  position: relative;
+  color: #bccd9b;
+  width: 650px;
+}
+
+#ID2 {
+  position: relative;
+  color: #bccd9b;
+  width: 650px;
+}
+
+#text {
+  color: #bccd9b;
+}
+
+.Check1 {
+  position: relative;
+  top: 1px;
+}
+
+.Check2 {
+  position: relative;
+  top: 34px;
+  right: 340px;
+  gap: 10px;
+}
+
+.Check1 p {
+  color: #bccd9b;
+}
+
+.Search1 p {
+  color: #bccd9b;
+  position: relative;
+}
+
+.Search2 p {
+  color: #bccd9b;
+}
+
+.Search1 {
+  position: relative;
+  top: 1px;
+}
+
+.Search2 {
+  position: relative;
+  top: 57px;
+  right: 340px;
+  gap: 10px;
+}
+
+.SearchBox {
+  height: 290px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+  scrollbar-color: #859663 rgba(80, 80, 80, 0.7);;
+  scrollbar-width: thin;
+}
+
+.search-options {
+  border-radius: 20px;
+  background-color: grey;
+}
+
+        h1 {
+            color: #859663;
+        }
+
+        select {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            -ms-appearance: none;
+            appearance: none;
+            outline: 0;
+            background: rgba(255, 255, 255, 0.55);
+            background-image: none;
+            border: 1px solid black;
+        }
+
+        .select {
+            position: relative;
+            display: block;
+            width: 20em;
+            height: 3em;
+            line-height: 3;
+            background: #2C3E50;
+            overflow: hidden;
+            border-radius: .25em;
+        }
+
+        select {
+            width: 100px;
+            height: 30px;
+            margin: 0;
+            padding: 0 0 0 .5em;
+            color: #000000;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+
+        select::-ms-expand {
+            display: none;
+        }
+
+        .select::after {
+            content: '\25BC';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            padding: 0 1em;
+            background: #34495E;
+            pointer-events: none;
+        }
+
+        .select:hover::after {
+            color: #F39C12;
+        }
+
+        < !-- For different browsers -->.select::after {
+            -webkit-transition: .25s all ease;
+            -o-transition: .25s all ease;
+            transition: .25s all ease;
+        }
+
+.CheckText {
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin-right: 40px;
+  position: relative;
+  right: 30px;
+}
+
+#CheckTitle {
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+  width: 300px;
+  top: 3px;
+  margin-left: 25px;
+  margin-bottom:20px;
+}
+
+#CheckDiv {
+  display: flex;
+  justify-content: center;
+
+}
+
+.CheckInfoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 160px;
+  right: 140px;
+  gap: 40px;
+}
+
+/*.SearchContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 160px;
+  right: 140px;
+  gap: 40px;
+}*/
+
+.CheckInfoContainer p {
+  color: #bccd9b;
+}
+
+.CheckOptions {
+  position: relative;
+  right: -810px;
+  height: 150px;
+  width: 0px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 607px;
+  gap: 10px;
+  top: -560px;
+}
+
+.SearchOptions {
+  position: relative;
+  right: -15px;
+  height: 150px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 607px;
+  gap: 10px;
+  top: -600px;
+}
+
+.CheckOptions button {
+  width: 100px;
+}
+
+.CheckOptions button:hover {
+  background-color: rgba(188, 188, 188, 0.7);
+}
+
+.SearchOptions button {
+  width: 100px;
+}
+
+.SearchOptions button:hover {
+  background-color: rgba(188, 188, 188, 0.7);
+}
+
+.SearchOptions button {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+  text-align: right;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #bccd9b;
+  height: 500px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+}
+
+.Top {
+  width: 200px;
+}
+
+.ClockCard p {
+  text-align: center;
+}
+
+#store {
+  font-size: 32px;
+  color: #a3b18a;
+}
+
+.CheckLargeContainer {
+  width: 100%;
+  display: flex;
+  right: 400px;
+  margin-bottom: 100px;
+  height: 750px;
+  align-content: center;
+  justify-content: center;
+  flex-grow: 4;
+}
+
+.CardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-grow: 1;
+  height: 500px;
+  width: 100%;
+}
+
+.InventoryCardContainer {
+  width: 1500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-grow: 4;
+  height: 1200px;
+}
+
+.MemberContainer {
+  width: 1450px;
+  display: flex;
+  right: 400px;
+  margin-bottom: 100px;
+  height: 750px;
+  justify-content: center;
+  flex-grow: 4;
+}
+
+.ProfileImage {
+  height: 200px;
+}
+
+.profile {
+  position: relative;
+  top: -550px;
+  width: 1000px;
+}
+
+#sideBar {
+  z-index: 10;
+  animation-name: fadeProfile;
+  animation-duration: 300ms;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: relative;
+  height: 1500px;
+  width: 230px;
+  top: -540px;
+  right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  margin-bottom: 150px;
+}
+
+#sideBar2 {
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: relative;
+  height: 1500px;
+  width: 230px;
+  top: -540px;
+  right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  margin-bottom: 150px;
+}
+
+.AddMember {
+  animation-name: none;
+  right: 0px;
+}
+
+#sideBar2 button {
+  z-index: 100;
+  height: 100px;
+  width: 175px;
+  border-width: 3px;
+  background-color: #a3b18a00;
+  border-top-style: none;
+  border-bottom-style: solid;
+  border-left-style: none;
+  border-right-style: none;
+  border-color: #566242;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+  text-align: right;
+  color: #a3b18a;
+  border-radius: 4px;
+}
+
+#sideBar button {
+  z-index: 100;
+  height: 100px;
+  width: 175px;
+  border-width: 3px;
+  background-color: #a3b18a00;
+  border-top-style: none;
+  border-bottom-style: solid;
+  border-left-style: none;
+  border-right-style: none;
+  border-color: #566242;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+  text-align: right;
+  color: #a3b18a;
+  border-radius: 4px;
+}
+
+#sideBar button:hover {
+  background-color: rgba(188, 188, 188, 0.3);
+}
+
+#sideBar2 button:hover {
+  background-color: rgba(188, 188, 188, 0.3);
+}
+
+Link {
+  text-align: center;
+}
+
+.ProfileWindow {
+  display: flex;
+  top: 100px;
+}
+
+.Profile {
+  top: 0px;
+  right: 0px;
+  color: black;
+}
+
+.ProfileImage {
+  float: left;
+  position: relative;
+  border-radius: 20px;
+  top: -150px;
+  right: 50px;
+  display: inline-block;
+}
+
+.ProfileOptions {
+  position: relative;
+  right: -810px;
+  height: 150px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 607px;
+  gap: 10px;
+  top: -560px;
+}
+
+.MemberOptions {
+  position: relative;
+  right: -780px;
+  top: 40px;
+  height: 150px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 10px;
+}
+
+.MemberOptions button:hover {
+  background-color: rgba(188, 188, 188, 0.7);
+}
+
+.InventoryOptions {
+  position: relative;
+  right: -780px;
+  top: 40px;
+  height: 150px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 10px;
+}
+
+.InventoryOptions button {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+  text-align: right;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #bccd9b;
+  height: 500px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+}
+
+.InventoryOptions button:hover {
+  background-color: rgba(188, 188, 188, 0.7);
+}
+
+.MemberOptions button {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+  text-align: right;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #bccd9b;
+  height: 300px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+}
+
+.ProfileOptions button {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+  text-align: right;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #bccd9b;
+  height: 300px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+}
+
+.CheckOptions button {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+  text-align: right;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #bccd9b;
+  height: 300px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+}
+
+.ProfileOptions button:hover {
+  background-color: rgba(188, 188, 188, 0.7);
+}
+
+.InfoContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -160px;
+  right: -93px;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+  font-size: 14px;
+  color: #bccd9b;
+  width: 300px;
+}
+
+.profile p {
+  width: 100px;
+  display: inline-block;
+}
+
+.LeftColumn {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  right: 580px;
+  top: 93px;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+  font-size: 14px;
+  color: #bccd9b;
+}
+
+.RightColumn {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 93px;
+  right: 305px;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+  font-size: 14px;
+  color: #bccd9b;
+}
+
+.profile {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 300px;
+  align-items: flex-start;
+}
+
+.WelcomePage {
+  background-color: white;
+  position: relative;
+  top: 0px;
+  right: -1000px;
+}
+
+@keyframes fadeProfile {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes inputMove {
+  0% {
+    transform: translateX(-1000px);
+  }
+  25% {
+    transform: translateX(-750px);
+  }
+  50% {
+    transform: translateX(-500px);
+  }
+  75% {
+    transform: translateX(-250px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes fadeLogin {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.CardContents {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.ListBox {
+  display: flex;
+  flex-direction: row;
+  height: 350px;
+  width: 600px;
+  justify-content: center;
+}
+
+.Lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  right: 325px;
+  top: -400px;
+  
+}
+
+.ListBoxTitle {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+  font-size: smaller;
+  margin-bottom: 15px;
+}
+
+.CardContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.ListTitle {
+  margin-left: 35px;
+  margin-right: 150px;
+}
+
+.ListTitle2 {
+  margin-left: 80px;
+}
+
+.ListBox1 {
+  width: 200px;
+  height: 350px;
+  scrollbar-width: thin;
+  border-radius: 4px;
+}
+.ListBox2 {
+  width: 200px;
+  height: 350px;
+  scrollbar-width: thin;
+  border-radius: 4px;
+}
+
+.List3 {
+  width: 200px;
+  height: 350px;
+  scrollbar-width: thin;
+  border-radius: 4px;
+}
+.ListBox4 {
+  width: 200px;
+  height: 350px;
+  scrollbar-width: thin;
+  border-radius: 4px;
+  margin-left: 100px;
+}
